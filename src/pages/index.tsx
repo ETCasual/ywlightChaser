@@ -1,3 +1,13 @@
-const IndexPage = () => <h1 className="text-red-500">Hello Next.js 👋</h1>;
+import { NextPage } from 'next';
 
-export default IndexPage;
+const Index: NextPage = () => {
+  return (
+    <div className="h-screen w-screen flex">
+      <p className="text-3xl font-lato font-black text-center w-full self-center animate-bounce">
+        Light Chaser 追光者
+      </p>
+    </div>
+  );
+};
+
+export default Index;
